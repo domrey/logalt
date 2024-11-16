@@ -12,6 +12,6 @@ CREATE TABLE IF NOT EXISTS PGeneralTbl (
 
 	/* LLAVES */
 	PRIMARY KEY (PersonaId)
-) Engine=InnoDB;
-	
-
+) Engine=InnoDB
+DEFAULT CHARSET=utf16 COLLATE=utf16_spanish2_ci
+COMMENT='Tabla de datos generales de una persona'

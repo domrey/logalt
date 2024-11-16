@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS RhPuestoTbl (
 	NivelNum TINYINT NOT NULL DEFAULT (Nivel) COMMENT 'Nivel del puesto en formato numérico',
 	Creacion TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
 	Id CHAR(8) NOT NULL DEFAULT (CONCAT(Nivel, '.', Familia, '.', Grupo)) COMMENT 'Llave del registro',
-	#PRIMARY KEY (Id)
+	
 	CONSTRAINT PK_Puesto PRIMARY KEY (Nivel, Familia, Grupo)
 )
 ENGINE=InnoDb 
