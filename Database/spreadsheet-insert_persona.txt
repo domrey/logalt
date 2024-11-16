@@ -1,0 +1,57 @@
+=CONCATENAR(
+"INSERT INTO PersonaTbl(Id, Tipo, Nombre, Paterno, Materno, Apodo, NombreCorto, NombreCompleto, NombrePropio, Status, Depto, Dato, Eliminado, Creado, Modificado) VALUES (", 
+A486, 
+", ", "'", NOMPROPIO(B486), "'", 
+", ", "'", C486, "'", 
+", ", "'", D486, "'",
+", ", "'", E486, "'",
+", ", "'", F486, "'",
+", ", "'", G486, "'",
+", ", "'", H486, "'",
+", ", "'", I486, "'",
+", ", "'", NOMPROPIO(M486), "'",
+", ", "'", N486, "'",
+", ", "'", O486, "'",
+", ", SI(P486, 1, 0),
+", ", "'", TEXTO(Q486, "yyyy-mm-dd hh:mm:ss"), "'",
+", ", "'", TEXTO(S486, "yyyy-mm-dd hh:mm:ss"), "'",
+");"
+)
+
+=CONCATENAR(
+"INSERT INTO PGeneralTbl(PersonaId, CURP, RFC, Genero, FechaNac, EntidadNac, Eliminado, Modificado) VALUES (", 
+A2, 
+", ", "'", B2, "'", 
+", ", "'", C2, "'",
+", ", "'", NOMPROPIO(D2), "'",
+", ", "'", TEXTO(E2, "yyyy-mm-dd"), "'",
+", ", "'", F2, "'",
+", ", 0,
+", ", "'", TEXTO(Q486, "yyyy-mm-dd hh:mm:ss"), "'",
+");"
+)
+
+=CONCATENAR(
+"INSERT INTO PersonaTbl(Id, Tipo, Nombre, Paterno, Materno, Apodo, NombreCorto, NombreCompleto, NombrePropio, CURP, RFC, Genero, FechaNac, EntidadNac, Status, Depto, Dato, Eliminado, Creado, Modificado) VALUES (", 
+A2, 
+", ", "'", NOMPROPIO(B2), "'", 
+", ", "'", C2, "'", 
+", ", "'", D2, "'",
+", ", "'", E2, "'",
+", ", "'", F2, "'",
+", ", "'", G2, "'",
+", ", "'", H2, "'",
+", ", "'", I2, "'",
+", ", "'", V2, "'",
+", ", "'", W2, "'",
+", ", "'", X2, "'",
+", ", "'", TEXTO(Y2, "yyyy-mm-dd"), "'",
+", ", "'", Z2, "'",
+", ", "'", NOMPROPIO(M2), "'",
+", ", "'", N2, "'",
+", ", "'", O2, "'",
+", ", SI(P2, 1, 0),
+", ", "'", TEXTO(Q2, "yyyy-mm-dd hh:mm:ss"), "'",
+", ", "'", TEXTO(S2, "yyyy-mm-dd hh:mm:ss"), "'",
+");"
+)
