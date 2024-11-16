@@ -1,7 +1,7 @@
 USE pmxlogalt;
 
-CREATE TABLE IF NOT EXISTS PersonaTbl (
-	Id INT UNIQUE NOT NULL COMMENT 'Llave principal del registro',
+CREATE TABLE IF NOT EXISTS RhPersonaTbl (
+	Id INTEGER UNIQUE NOT NULL COMMENT 'Llave principal del registro',
 	Tipo ENUM('Empleado', 'Externo') NOT NULL DEFAULT 'Empleado' COMMENT 'Tipo de persona',
 	Nombre VARCHAR(50) NOT NULL COMMENT 'Nombre(s) de la persona',
 	Paterno VARCHAR(50) NOT NULL COMMENT 'Apellido paterno de la persona',
