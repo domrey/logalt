@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS PersonaTbl (
 	EntidadNac VARCHAR(60) COMMENT 'Entidad de nacimiento',
 	Foto BLOB COMMENT 'Foto principal de la persona',
 	Status ENUM('Activo', 'Inactivo') NOT NULL DEFAULT 'Activo' COMMENT 'Estado actual de la persona',
-	Depto VARCHAR(80) 'Clave del departamento relacionado a la persona. 16100 para vincular con Logística',
+	Depto VARCHAR(80) COMMENT 'Clave del departamento relacionado a la persona. 16100 para vincular con Logística',
 	Dato VARCHAR(80),
 	Eliminado BOOLEAN NOT NULL DEFAULT 0,
 	Creado TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
