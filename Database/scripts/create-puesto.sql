@@ -1,4 +1,4 @@
-USE logalt;
+USE pmxlogalt;
 
 CREATE TABLE IF NOT EXISTS RhPuestoTbl (
 	Nivel CHAR(2) NOT NULL COMMENT 'Cadena que representa el nivel del puesto',

@@ -1,4 +1,4 @@
-USE pmxlog_db;
+USE pmxlogalt;
 
 CREATE TABLE IF NOT EXISTS PersonaTbl (
 	Id INT UNIQUE NOT NULL COMMENT 'Llave principal del registro',

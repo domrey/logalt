@@ -1,4 +1,4 @@
-USE pmxlog_db;
+USE pmxlogalt;
 
 INSERT INTO PersonaTbl(Id, Tipo, Nombre, Paterno, Materno, Apodo, NombreCorto, NombreCompleto, NombrePropio, CURP, RFC, Genero, FechaNac, EntidadNac, Status, Depto, Dato, Eliminado, Creado, Modificado) VALUES (312224, 'Empleado', 'JORGE ALBERTO', 'DOMINGUEZ', 'REYES', 'COQUE', 'JORGE A. DOMINGUEZ', 'JORGE ALBERTO DOMINGUEZ REYES', 'Jorge Alberto Domínguez Reyes', 'DORJ730602HTSMYR03', 'DORJ730602JG1', 'Hombre', '1973-06-02', 'Tamaulipas', 'Activo', '16100', '', 0, '2020-07-01 21:34:00', '2024-10-26 15:37:27');
 INSERT INTO PersonaTbl(Id, Tipo, Nombre, Paterno, Materno, Apodo, NombreCorto, NombreCompleto, NombrePropio, CURP, RFC, Genero, FechaNac, EntidadNac, Status, Depto, Dato, Eliminado, Creado, Modificado) VALUES (121560, 'Empleado', 'MIGUEL ANGEL', 'AVILA', 'SORIANO', 'SABALITO', 'MIGUEL A. AVILA', 'MIGUEL ANGEL AVILA SORIANO', 'Miguel Angel Avila Soriano', '', '', 'Hombre', '1960-11-23', '', 'Inactivo', '16100', '', 0, '2020-07-01 21:37:19', '2023-08-23 09:42:53');
